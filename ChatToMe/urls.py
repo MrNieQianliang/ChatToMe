@@ -19,5 +19,6 @@ from HelloWorld import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',views.home,name = 'home')
+    path('hello/',views.home,name = 'home'),
+    path('nql/',views.hello,name = 'hello')
 ]
